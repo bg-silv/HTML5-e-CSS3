@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>testando tamanhos</p>
+    <picture> <!--precisa seguir a ordem da menor ate a grande-->
+        <source media="(max-width: 750px)" srcset="Imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/mm.png" type="image/png">
+        <img src="Imagens/g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1> <!--existes diversos tipos de formatos para arquivos ogg, wav-->
+    <audio preload="metadata" controls loops>
+   <source src="y2mate.com - Hungria Hip Hop  Difícil Aceitar Official Music Video.mp3" type="audio/mpeg" >
+</audio>
+</body>
+
+</html>
