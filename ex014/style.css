@@ -1,31 +1,50 @@
+/* Define a codificação de caracteres como UTF-8 */
 @charset "UTF-8";
 
+/* Aplica a fonte "Arial, Helvetica, sans-serif" a todos os elementos */
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* Define o plano de fundo do corpo com um gradiente linear de verde */
 body {
-    background-image: linear-gradient(to bottom, #0CABA8, #015958);
+    background-image: linear-gradient(to bottom, #12d8d5, #028381);
 }
 
-
-
+/* Estiliza a seção principal da página */
 main {
+    /* Define o plano de fundo como branco */
     background-color: white;
+    
+    /* Adiciona cantos arredondados */
     border-radius: 20px;
+    
+    /* Aplica uma sombra de caixa preta */
+    box-shadow: 5px 5px 20px #000000;
+    
+    /* Define a largura como 600px */
     width: 600px;
+    
+    /* Adiciona preenchimento interno de 10px */
     padding: 10px;
+    
+    /* Centraliza o elemento na página */
     margin: auto;
 }
 
+/* Define a cor do texto dos cabeçalhos h1 */
 h1 {
-    color: #023535;
+    color: #28d6d6;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
+/* Define a cor do texto dos cabeçalhos h2 */
 h2 {
-color: #0FC2C0;
+    color: #0FC2C0;
 }
+
+/* Define o alinhamento do texto nos parágrafos como justificado */
 p {
     text-align: justify;
 }
